@@ -10,9 +10,12 @@ import Projects from "../pages/Projects";
 import References from "../pages/References";
 import Documents from "../pages/Documents";
 
+import Navbar from "../components/Navbar";
+
 function Root() {
   return (
     <>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/education" element={<Education />}/>
