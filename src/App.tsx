@@ -1,14 +1,46 @@
+import { Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState } from 'react'
 import './App.css'
 
-function App() {
-  // const [count, setCount] = useState(0)
+import Home from "../pages/Home";
+import Education from "../pages/Education";
+import Experience from "../pages/Experience";
+import Certifications from "../pages/Certifications";
+import Projects from "../pages/Projects";
+import References from "../pages/References";
+import Documents from "../pages/Documents";
+
+function Root() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/education" element={<Education />}/>
+        <Route path="/experience" element={<Experience />}/>
+        <Route path="/certifications" element={<Certifications />}/>
+        <Route path="/projects" element={<Projects />}/>
+        <Route path="/references" element={<References />}/>
+        <Route path="/documents" element={<Documents />}/>
+
+      </Routes>
+    </>
+  );
+}
+
+const router = createBrowserRouter(
+  [{path:"*", Component:Root}]
+);
+
+
+export default function App() {
+
+
 
   return (
     <>
-      
+      <RouterProvider router={router}/>
     </>
-  )
+  );
 }
 
-export default App
+
