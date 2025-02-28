@@ -21,7 +21,7 @@ import Footer from "../components/Footer";
 function Root() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/education" element={<Education />}/>
@@ -41,9 +41,6 @@ const router = createBrowserRouter(
 
 
 export default function App() {
-
-
-
   return (
     <>
       {/* header */}
