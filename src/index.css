@@ -3,9 +3,11 @@
   box-sizing: border-box;
 }
 
-#page-wrapper{
-  width: 80vw;
-  margin: 0 auto;
+/* Unsets the predefined root element styles */
+#root {
+  max-width: unset !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /*Header styling*/
@@ -16,6 +18,7 @@ header{
   background-color: #3527ff;
   color: #d0dafc;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left
 }
 
 #container{
@@ -24,6 +27,7 @@ header{
   flex-direction: row;
   position: relative;
   background-color: #4f6aef;
+  text-align: center;
 }
 
 /* Nav styling */
