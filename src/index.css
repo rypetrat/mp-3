@@ -74,6 +74,7 @@ main p{
   font-size: calc(2px + 2vw);
 }
 
+/* Home page styling */
 #profile-image{
   max-width: 100%;
   border: 2px solid #3527ff;
@@ -102,12 +103,164 @@ main p{
 #main-title{
   margin: 2vw 0;
   text-align: center;
-  font-size: calc(2px + 2vw);
+  font-size: calc(4px + 2vw);
   color: #3527ff;
 }
 
 #lower-main p {
-  font-size: calc(3px + 1.75vw);
+  font-size: calc(0.35px + 1.75vw);
+}
+
+/* Education page styling */
+#education{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2vh 2vw;
+}
+
+#education-text{
+  align-self: center;
+  width: 100%;
+  margin: 1vh 1vw;
+}
+
+#education-image{
+  display: block;
+  max-width: 62%;
+  margin: 0 auto;
+}
+
+#education-title{
+  margin: 2vw 0;
+  text-align: center;
+  font-size: calc(4px + 2vw);
+  color: #3527ff;
+}
+
+#education-text h3 {
+  font-size: calc(2px + 1.5vw);
+  margin-top: 5vw;
+}
+
+#education-text ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: calc(4px + 1.5vw);
+  text-align: left;
+}
+
+/* Experience Page styling */
+#experience{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh 2vw;
+}
+
+#experience-title{
+  margin: 2vw 0;
+  text-align: center;
+  font-size: calc(4px + 2vw);
+  color: #3527ff;
+}
+
+main ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+#experience ul li {
+  font-size: calc(7.45px + 1vw);
+  padding-bottom: 5%;
+}
+
+/* Certifications page styling */
+#certifications{
+  align-self: center;
+  width: 100%;
+  padding: 2vw;
+}
+
+#certifications-title{
+  margin: 2vw 0;
+  text-align: center;
+  font-size: calc(4px + 2vw);
+  color: #3527ff;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+#certifications ul li {
+  font-size: calc(7px + 1vw);
+  padding-bottom: 5%;
+}
+
+/* Projects page styling */
+
+
+/* References page styling */
+#references{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh 2vw;
+}
+
+#references ul {
+  list-style-type: none;
+}
+
+#references ul li {
+  font-size: calc(7px + 1vw);
+  padding-bottom: 3%;
+}
+
+#references-title{
+  margin: 2vw;
+  text-align: center;
+  font-size: calc(4px + 2vw);
+  color: #3527ff;
+}
+
+/* Documents page styling */
+#resume-image{
+  max-width: 100%;
+}
+
+#documents{
+  display: flex;
+  flex-direction: row;
+  padding: 2vh 2vw;
+}
+
+#documents-other{
+  width: 20%;
+  margin: 1vh 1vw;
+}
+
+#documents-other ul{
+  padding-bottom: 10%;
+  padding: 1vh 2vw;
+}
+
+#documents-other ul li{
+  padding-bottom: 5%;
+}
+
+#documents-image{
+  width: 70%;
+  margin: 1vh;
+}
+
+#documents-title{
+  margin: 2vw 0;
+  text-align: center;
+  font-size: calc(4px + 2vw);
+  color: #3527ff;
 }
 
 /* Footer styling */
