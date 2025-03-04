@@ -5,7 +5,7 @@ export default function Home() {
 
         <div id="main">
           <div id="main-image">
-            <img src="src/assets/headshot.jpg" id="profile-image" alt="Headshot photo of Ryan Petrat"/>
+            <img src="src/headshot.jpg" id="profile-image" alt="Headshot photo of Ryan Petrat"/>
           </div>
 
           <div id="main-text">
