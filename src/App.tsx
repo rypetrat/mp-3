@@ -38,29 +38,29 @@ const Container = styled.div`
 // Defines routing
 function Root() {
   return (
-      <PageWrapper>
-        {/* header */}
-        <Header/>
-        <Container>
-          {/* Navbar */}
-          <Navbar/> 
-          {/* Main Content */}
-          <main>
-            <Routes>
-              <Route path="/" element={<Home />}/>
-              <Route path="/education" element={<Education />}/>
-              <Route path="/experience" element={<Experience />}/>
-              <Route path="/certifications" element={<Certifications />}/>
-              <Route path="/projects" element={<Projects />}/>
-              <Route path="/references" element={<References />}/>
-              <Route path="/documents" element={<Documents />}/>
-              <Route path="/credit" element={<Credit />}/>
-            </Routes>
-          </main>
-        </Container>
-        {/* footer */}
-        <Footer/>
-      </PageWrapper>
+    <PageWrapper>
+      {/* header */}
+      <Header/>
+      <Container>
+        {/* Navbar */}
+        <Navbar/> 
+        {/* Main Content */}
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/education" element={<Education />}/>
+            <Route path="/experience" element={<Experience />}/>
+            <Route path="/certifications" element={<Certifications />}/>
+            <Route path="/projects" element={<Projects />}/>
+            <Route path="/references" element={<References />}/>
+            <Route path="/documents" element={<Documents />}/>
+            <Route path="/credit" element={<Credit />}/>
+          </Routes>
+        </main>
+      </Container>
+      {/* footer */}
+      <Footer/>
+    </PageWrapper>
   );
 }
 const router = createBrowserRouter(
@@ -71,10 +71,7 @@ const router = createBrowserRouter(
 export default function App() {
   return (
     <>
-        {/* display main content */}
-        <RouterProvider router={router}/>
+      <RouterProvider router={router}/>
     </>
   );
 }
-
-
