@@ -4,7 +4,7 @@ export default function Education() {
         <h2 id="education-title">Education</h2>
         <div id="education">
           <div id="education-text">
-            <img src="src/bu.png" id="education-image" alt="Boston University Crest"/>
+            <img src="/bu.png" id="education-image" alt="Boston University Crest"/>
             <p>
                 I began my college tenure at Boston University in the fall of 2021 and I will be graduating from BU with a BA in Computer Science 
                 at the conclusion of the spring 2025 Semester. Go Terriers!
