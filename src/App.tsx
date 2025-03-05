@@ -2,17 +2,17 @@ import { Routes, Route, createBrowserRouter, RouterProvider } from "react-router
 import { styled } from "styled-components";
 import './App.css'
 
-// Page imports
-import Home from "../pages/Home";
-import Education from "../pages/Education";
-import Experience from "../pages/Experience";
-import Certifications from "../pages/Certifications";
-import Projects from "../pages/Projects";
-import References from "../pages/References";
-import Documents from "../pages/Documents";
-import Credit from "../pages/Credit";
+// Component main imports
+import Home from "../components/Home";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import Certifications from "../components/Certifications";
+import Projects from "../components/Projects";
+import References from "../components/References";
+import Documents from "../components/Documents";
+import Credit from "../components/Credit";
 
-// Component imports
+// Component non-main imports
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -22,7 +22,6 @@ const PageWrapper = styled.div`
   width: 80vw;
   margin: 0 auto;
 `;
-
 const Container = styled.div`
   width: 100%;
   display: flex;
