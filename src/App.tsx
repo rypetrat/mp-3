@@ -17,6 +17,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+// Styled wrapping components
 const PageWrapper = styled.div`
   width: 80vw;
   margin: 0 auto;
@@ -67,7 +68,7 @@ const router = createBrowserRouter(
   [{path:"*", Component:Root}]
 );
 
-
+// Renders the page
 export default function App() {
   return (
     <>
